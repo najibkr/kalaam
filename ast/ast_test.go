@@ -2,7 +2,8 @@ package ast
 
 import (
 	"testing"
-	"zabaan/token"
+
+	"github.com/najibkr/kalaam/token"
 )
 
 func TestString(t *testing.T) {

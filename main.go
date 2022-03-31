@@ -4,7 +4,8 @@ import (
 	"fmt"
 	"os"
 	"os/user"
-	"zabaan/repl"
+
+	"github.com/najibkr/kalaam/repl"
 )
 
 func main() {

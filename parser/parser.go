@@ -2,11 +2,12 @@ package parser
 
 import (
 	"fmt"
-	"zabaan/ast"
-	"zabaan/lexer"
-	"zabaan/token"
 
 	"strconv"
+
+	"github.com/najibkr/kalaam/ast"
+	"github.com/najibkr/kalaam/lexer"
+	"github.com/najibkr/kalaam/token"
 )
 
 const (

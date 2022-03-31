@@ -2,9 +2,10 @@ package evaluator
 
 import (
 	"testing"
-	"zabaan/lexer"
-	"zabaan/object"
-	"zabaan/parser"
+
+	"github.com/najibkr/kalaam/lexer"
+	"github.com/najibkr/kalaam/object"
+	"github.com/najibkr/kalaam/parser"
 )
 
 func TestEvalIntegerExpression(t *testing.T) {

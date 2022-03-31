@@ -3,7 +3,8 @@ package ast
 import (
 	"bytes"
 	"strings"
-	"zabaan/token"
+
+	"github.com/najibkr/kalaam/token"
 )
 
 // The base Node interface

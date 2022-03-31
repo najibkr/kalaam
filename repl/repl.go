@@ -5,10 +5,11 @@ import (
 	"fmt"
 	"io"
 	"io/ioutil"
-	"zabaan/evaluator"
-	"zabaan/lexer"
-	"zabaan/object"
-	"zabaan/parser"
+
+	"github.com/najibkr/kalaam/evaluator"
+	"github.com/najibkr/kalaam/lexer"
+	"github.com/najibkr/kalaam/object"
+	"github.com/najibkr/kalaam/parser"
 )
 
 func Start(username string, in io.Reader, out io.Writer) {

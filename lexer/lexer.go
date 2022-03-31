@@ -1,6 +1,6 @@
 package lexer
 
-import "zabaan/token"
+import "github.com/najibkr/kalaam/token"
 
 type Lexer struct {
 	input        string

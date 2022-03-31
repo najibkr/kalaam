@@ -4,9 +4,10 @@ import (
 	"bytes"
 	"fmt"
 	"hash/fnv"
-	"zabaan/ast"
 
 	"strings"
+
+	"github.com/najibkr/kalaam/ast"
 )
 
 type BuiltinFunction func(args ...Object) Object

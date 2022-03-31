@@ -2,8 +2,9 @@ package evaluator
 
 import (
 	"fmt"
-	"zabaan/ast"
-	"zabaan/object"
+
+	"github.com/najibkr/kalaam/ast"
+	"github.com/najibkr/kalaam/object"
 )
 
 var (
